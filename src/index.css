@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.gradients{
+  background: rgb(0,26,36);
+  background: linear-gradient(90deg, rgba(0,26,36,1) 0%, rgba(43,43,74,1) 45%, rgba(28,88,101,1) 100%);
+}
+.active{
+  /* Add your active link styles here */
+  color: lightskyblue;
+  font-weight: 600;
+  
+}
+.gradient{
+  border: rgb(0,26,36);
+  border: linear-gradient(90deg, rgba(0,26,36,1) 0%, rgba(43,43,74,1) 45%, rgba(28,88,101,1) 100%);
+}
